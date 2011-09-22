@@ -18,7 +18,7 @@ relies on `alias`.
 2. add to your `.bashrc` or `.bash_profile` the following code.
 
     if [ -f ~/.drush_aliases]; then 
-        source ~/.drush_aliases
+        source ~/.drush_aliase
     fi
     
 This code assumes that your `.bash_aliases` resides in your **home**
