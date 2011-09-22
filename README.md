@@ -14,12 +14,13 @@ relies on `alias`.
 1. Copy the `drush_aliases` file to a convenient location
    &mdash; I suggest your home directory.
    
-   
-2. add to your `.bashrc` or `.bash_profile` the following code.
+2. Add to your `.bashrc` or `.bash_profile` the following code:
 
+    <pre>
     if [ -f ~/.drush_aliases]; then 
-        source ~/.drush_aliase
+       source ~/.drush_aliases
     fi
+    </pre>
     
 This code assumes that your `.bash_aliases` resides in your **home**
 directory.
